@@ -52,10 +52,3 @@ class curve:
 	
 	def __eq__(self, other):
 		return self.a == other.a and self.b == other.b
-	
-
-a = point(0, 3, 7, curve(3, 2))
-print(8*a)
-
-# for i in range(1, 9):
-	# print(i * a)
