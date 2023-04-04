@@ -2,6 +2,7 @@
 ## Introduction:
 This tool is designed to sum points on an elliptic curve.
 ## Basic Tutorial:
+### Basic Use
 You have a curve
 
 $E: y^2 = x^3 + 3x + 2 \mod{7}$ 
@@ -35,5 +36,10 @@ This package also supports multiplication:
 >>> print(p1*4) 
 (4, 6)
 ```
+
+### Error Handling
+- The code will prevent adding points that have a different modulo.
+- If you add to points on a different curve, and error will be thrown.
+- If the slope between two points approaches infinity, and error will be thrown.
 
 More functionality (such as determining points on a curve) will be present in the future.
