@@ -35,8 +35,6 @@ class point:
 	
 	Methods
 	-------
-	slope(b)
-		Returns the slope between a itself and a point b
 	"""
 
 	def __init__(self, x: int, y: int, p: int, curve: curve) -> None:
