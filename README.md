@@ -1,4 +1,4 @@
-# EllipticCurveCalculator
+# Elliptic Curve Calculator
 ## Introduction:
 This tool is designed to sum points on an elliptic curve.
 ## Basic Tutorial:
